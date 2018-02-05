@@ -1,6 +1,6 @@
-# fml
+# File Management in Linux (FML)
 File Management in Linux (using FUSE)
-
+PES University - UNIX System Lab Project
 
 Vishal 
 Bishesh
