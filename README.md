@@ -1,5 +1,5 @@
-# File Management in Linux (FML)
-File Management in Linux (using FUSE)
+# File-system Management with Libfuse (FML)
+File-system Management using Libfuse in Linux
 PES University - UNIX System Lab Project
 
 Vishal 
