@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "traverse.h"
+#include "extened_string.h"
 int main(){
 	char *s = "this/is/a/test";
 	char **p = path_split(s);
