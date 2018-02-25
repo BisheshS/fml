@@ -1,5 +1,6 @@
-int init_disk_emulator(void);
-void free_disk_emulator(void);
+#include<stdbool.h>
+bool init_disk_emulator(void);
+bool free_disk_emulator(void);
 
-int read_block(big_int block_id, void* target);
-int write_block(big_int block_id, void* buffer, size_t buffer_size);
+bool read_block(long block_id, void* target);
+bool write_block(long block_id, void* buffer);
