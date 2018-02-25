@@ -29,7 +29,7 @@ bool free_disk_emulator(void) { // just for in memory simulation; substitue code
 	return true; //freed already fam
 }
 
-bool read_block(int block_id, void *buffer) {
+bool read_block(long block_id, void *buffer) {
 	if (block_id < TOTAL_BLOCKS) {
 		memcpy(buffer, block_data[block_id], BLOCK_SIZE);
 		return true;
@@ -37,7 +37,7 @@ bool read_block(int block_id, void *buffer) {
 	return false;
 }
 
-bool write_block(int block_id, void *buffer, BLOCK_SIZE) {
+bool write_block(long block_id, void *buffer) {
 	if (block_id < TOTAL_BLOCKS) {
 		memcpy(block_data[block_id], buffer, BLOCK_SIZE);
 		return true;
