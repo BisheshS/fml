@@ -38,3 +38,4 @@ typedef struct open_file {
 static open_file open_file_table[LIMIT];
 static inode inode_table[LIMIT];
 static directory *root;
+
